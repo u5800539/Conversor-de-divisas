@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Divisas</h1>
+        <img src="Cambio.png" alt="Imagen de Divisas" class="currency-image">
+        <div class="converter">
+            <input type="number" id="amount" placeholder="Monto" />
+            <select id="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <select id="toCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <button id="convert">Convertir</button>
+            <input type="text" id="result" placeholder="Resultado" readonly />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
